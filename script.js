@@ -19,6 +19,12 @@ function Next(){
     current++;
     Display(current);
 }
+function Back(){
+    if(current>0){
+        current--;
+        Display(current);
+    }
+}
 function Shuffle(){
     console.log(deck);
     for(var i=min_length-1; i>=0; i--){
@@ -30,3 +36,4 @@ function Shuffle(){
 
 document.getElementById("Shuffle").addEventListener("click", Shuffle);
 document.getElementById("Next").addEventListener("click", Next);
+document.getElementById("Back").addEventListener("click", Back);
