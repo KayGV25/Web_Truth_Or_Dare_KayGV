@@ -17,12 +17,12 @@ function Display(current){
 }
 function Next(){
     current++;
-    Display(current);
+    Display(current%min_length);
 }
 function Back(){
     if(current>0){
         current--;
-        Display(current);
+        Display(current%min_length);
     }
 }
 function Shuffle(){
