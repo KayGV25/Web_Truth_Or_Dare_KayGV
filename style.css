@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16pt;
+}
+
+
+h1{
+    width: fit-content;
+    margin-block: 10px;
+    font-size: 2em;
+}
+p{
+    margin-block: 10px;
+    font-size: 1em;
+}
+.center-div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80vw;
+}
+.q-container{
+    display: block;
+}
