@@ -7,8 +7,8 @@ for(var i=0; i<min_length; i++){
 }
 
 function Display(current){
-    var q_Truth = Truth[current];
-    var q_Dare = Dare[current];
+    var q_Truth = Truth[deck[current]];
+    var q_Dare = Dare[deck[current]];
     var truth = document.getElementById("truth");
     var dare = document.getElementById("dare");
     truth.innerHTML = q_Truth;
